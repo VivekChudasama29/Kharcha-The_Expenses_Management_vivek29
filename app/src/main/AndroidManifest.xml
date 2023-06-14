@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.kharcha_theexpensesmanagement">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="Kha₹cha"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kharcha_theExpensesManagement">
+        <activity
+            android:name=".pdf_generate"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait"/>
+
+
+        <activity
+            android:name=".Activity.Expenses_wise_info"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait"/>
+
+        <activity
+            android:name=".Activity.Final_Settlement2"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.Group_settlement"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.Settlement_member2"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.Settlement_member"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.Final_Settlement"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.Member_wise_Expenses"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.OutPutActivity"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" /> <!-- <activity -->
+        <!-- android:name=".Activity.checkboxtesting" -->
+        <!-- android:exported="true"></activity> -->
+        <activity
+            android:name=".Activity.Split_Equally"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.About_kharcha"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.expense_details"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.Add_Expense_AMT"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.Add_Member"
+            android:exported="true"
+            android:label="@string/title_activity_add_member"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/Theme.Kharcha_theExpensesManagement.NoActionBar" />
+        <activity
+            android:name=".Activity.Settings"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.Feedback"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.RatingActivity"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.Add_group"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.Signout"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.Logins"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.Registration"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.VerifyOtp"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.sendOtp"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.navigationbar"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.reset_password"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.forgot_password"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Activity.Otpgenerate"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Adapter.ViewAdapter"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activity.SplashScreen"
+            android:exported="true"
+            android:screenOrientation="sensorPortrait">
+                        <intent-filter>
+                            <action android:name="android.intent.action.MAIN" />
+
+                            <category android:name="android.intent.category.LAUNCHER" />
+                        </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.MainActivity"
+            android:screenOrientation="sensorPortrait" />
+    </application>
+
+</manifest>

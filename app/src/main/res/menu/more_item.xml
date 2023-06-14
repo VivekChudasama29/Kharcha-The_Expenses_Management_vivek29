@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/add" android:title="Add" android:icon="@drawable/add"/>
+    <item android:id="@+id/list" android:title="List" android:icon="@drawable/add"/>
+    <item android:id="@+id/refresh" android:title="Refresh" android:icon="@drawable/group_add"/>
+    <item android:id="@+id/login" android:title="Login" android:icon="@drawable/delete"/>
+</menu>

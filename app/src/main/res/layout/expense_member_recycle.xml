@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+        <TextView
+        android:id="@+id/member_id_rec"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+            android:layout_margin="20dp"
+        android:textColor="#009688"
+
+        android:text="Member1 "/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/member_checkbox_rec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Member1"
+                android:layout_margin="20dp"
+                android:textColor="#3F51B5" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/group_id_rec"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Member1"/>
+    <TextView
+        android:id="@+id/expense_id_rec"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Member1"/>
+
+</LinearLayout>

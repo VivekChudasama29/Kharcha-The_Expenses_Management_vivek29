@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">kharcha_the expenses management</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="hyperLink">Visit <a href="www.google.com" /></string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    //Heading
+    <string name="heading_one">Easy To Use</string>
+    <string name="heading_two">Add Expenses</string>
+    <string name="heading_three">Instant Settlement</string>
+    <string name="heading_fourth">24×7 Available</string>
+
+    //Description
+    <string name="desc_one">Discover the easiest way to settle your payments! Our user-friendly settlement app simplifies your transactions, making it easy to use for everyone.</string>
+    <string name="desc_two">Track your expenses with ease! Our settlement app lets you add expenses effortlessly, helping you stay on top of your finances.</string>
+    <string name="desc_three">Our app ensures that you receive your settlements in real-time, giving you the freedom to use your funds immediately.</string>
+    <string name="desc_fourth">Get instant settlements anytime, anywhere with our settlement app!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_add_member">Add_Member</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main3">MainActivity3</string>
+</resources>

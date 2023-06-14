@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FeedbackFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:context=".Activity.Feedback">
+
+            <ImageView
+                android:id="@+id/feedback"
+                android:layout_width="match_parent"
+                android:layout_height="195dp"
+
+                android:foregroundGravity="center"
+                android:src="@drawable/feedback"
+                tools:layout_editor_absoluteX="121dp"
+                tools:layout_editor_absoluteY="53dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/feetback_text1"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:paddingLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:text="Feedback"
+                android:textColor="#5A63FD"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/feetback_text2"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="25dp"
+                android:text="Your Feedback is important for us"
+                android:textColor="#262626"
+                android:textSize="17dp"
+                android:textStyle="normal" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/feetback_text3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="25dp"
+                android:text="Email"
+                android:textColor="#262626"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/f_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:allowClickWhenDisabled="true"
+                android:background="@drawable/edit_text"
+                android:drawableLeft="@drawable/person_"
+                android:drawablePadding="26.00dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="12dp"
+                android:paddingLeft="25dp"
+                android:textColor="#5A63FD"
+                android:textColorHint="#333232"
+                android:textSize="15dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/feetback_text4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:maxHeight="300dp"
+                android:paddingLeft="25dp"
+                android:text="Feedback"
+                android:textColor="#262626"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="412dp" />
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/feedback_information"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/edit_text"
+                    android:gravity=""
+                    android:hint="Enter Your Feedback"
+                    android:inputType="textMultiLine"
+                    android:lines="4"
+                    android:overScrollMode="always"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="5dp"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical"
+                    android:scrollHorizontally="false"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#5A63FD"
+
+                    />
+            </ScrollView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Feedback"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/edit_button"
+                android:backgroundTint="#5A63FD"
+                android:padding="10dp"
+                android:paddingLeft="25dp"
+                android:text="Send Feedback"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

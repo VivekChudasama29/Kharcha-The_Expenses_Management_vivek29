@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group >
+        <item android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home"
+            />
+<!--        <item android:id="@+id/Notification"-->
+<!--            android:title="Notification"-->
+<!--            android:icon="@drawable/notifications"-->
+<!--            />-->
+        <item android:id="@+id/Community"
+            android:title="Add Group"
+            android:icon="@drawable/group_add"
+            />
+
+
+
+<!--        <item-->
+<!--            android:id="@+id/key"-->
+<!--            android:icon="@drawable/key_"-->
+<!--            android:title="key" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/Recent_Activity"-->
+<!--            android:icon="@drawable/recent_activity"-->
+<!--            android:title="Activity" />-->
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+<!--            <item-->
+<!--                android:id="@+id/share"-->
+<!--                android:icon="@drawable/ic_baseline_share_24"-->
+<!--                android:title="Share" />-->
+
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/rate_review"
+                android:title="Rate" />
+
+            <item
+                android:id="@+id/userFeedback"
+                android:icon="@drawable/feedback1"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+    <item android:title="Others">
+
+        <menu>
+            <item
+                android:id="@+id/person_"
+                android:icon="@drawable/repe"
+                android:title="Profile" />
+
+            <item android:id="@+id/Settings"
+                android:title="Settings"
+                android:icon="@drawable/settings"
+                />
+
+        </menu>
+    </item>
+
+
+
+</menu>

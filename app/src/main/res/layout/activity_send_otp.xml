@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    tools:context=".Activity.sendOtp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="9dp"
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="155dp"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/otp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Forget Password?"
+            android:textColor="#5A63FD"
+            android:textSize="20dp"/>
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="60dp"-->
+<!--            android:layout_marginEnd="60dp"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="+91"-->
+<!--                android:textStyle="bold"/>-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/inputMobile"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:hint="9988776655"-->
+<!--                android:imeOptions="actionDone"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="number"-->
+<!--                />-->
+
+            <TextView
+                android:id="@+id/login_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Enter Your Phone Number"
+                android:textColor="#E2090909"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/login_with"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="We Will Send You 6 Digits Verification Code"
+                android:textColor="#E24A4A4A" />
+
+
+<!--        </LinearLayout>-->
+
+        <EditText
+            android:id="@+id/inputMobile"
+            android:layout_width="318dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text"
+            android:drawableLeft="@drawable/contacts_"
+            android:drawablePadding="30dp"
+            android:hint="Mobile No."
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:textColor="#5A63FD"
+            android:textColorHint="#333232"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="70dp"/>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+<!--            <Button-->
+<!--                android:id="@+id/buttonGetOtp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="30dp"-->
+<!--                android:text="Get Otp"-->
+<!--                android:textColor="#F6ECEC"-->
+<!--                android:textSize="16dp"-->
+<!--                android:textStyle="bold" />-->
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonGetOtp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="22dp"
+                android:backgroundTint="#5A63FD"
+                android:padding="17dp"
+                android:text="Get Otp"
+                android:textColor="#fff"
+                android:background="@drawable/edit_text"
+                />
+
+
+                        <ProgressBar
+                            android:id="@+id/progressBar"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:visibility="gone"
+                            android:layout_gravity="center"/>
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+    </ScrollView>
+
+            </ScrollView>
+

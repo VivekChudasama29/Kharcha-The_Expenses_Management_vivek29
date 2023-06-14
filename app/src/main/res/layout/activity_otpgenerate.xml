@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Otpgenerate">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="37dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/otp_image"
+                android:layout_width="wrap_content"
+                android:layout_height="272dp"
+                app:srcCompat="@drawable/otp" />
+
+            <TextView
+                android:id="@+id/EnterOtp"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="Enter OTP"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pin"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="9dp"
+                android:text="Enter your 4 digit pin"
+                android:textColor="#3C3C3C"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/Otp"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit_text"
+                android:drawableLeft="@drawable/key_"
+                android:drawablePadding="28dp"
+                android:hint="Enter OTP"
+                android:inputType="phone"
+                android:padding="12dp"
+                android:textColor="#5A63FD"
+                android:textColorHint="#333232"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/Submit_OTP"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginBottom="7dp"
+                android:text="Submit"
+                app:backgroundTint="#5A63FD" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

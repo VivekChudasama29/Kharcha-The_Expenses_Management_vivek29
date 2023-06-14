@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+
+
+    <TextView
+        android:id="@+id/choosetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Create A Group"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:id="@+id/group_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_text"
+        android:drawableLeft="@drawable/person_"
+        android:drawablePadding="@dimen/_20sdp"
+        android:hint="Enter Group Name"
+
+        android:padding="12dp"
+        android:textColor="#5A63FD"
+        android:textColorHint="#333232"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/group_name_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_text"
+        android:drawableLeft="@drawable/group_add"
+        android:drawablePadding="@dimen/_20sdp"
+        android:hint="Enter Group Name"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="#5A63FD"
+        android:textColorHint="#333232"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/edit_text"
+        android:orientation="horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/group_circle_image_"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:src="@drawable/repe" />
+
+
+        <TextView
+            android:id="@+id/group_file_Name"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="15dp"
+            android:text="Please Select Your Image"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/group_btnFilePicker_"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="35dp"
+            android:background="@drawable/image"
+            android:onClick="selectImages"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/create_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#5A63FD"
+        android:padding="17dp"
+        android:text="Create"
+        android:textColor="#fff" />
+
+    <!--        <LinearLayout-->
+    <!--            android:id="@+id/layoutEdit"-->
+    <!--            android:layout_width="544dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:padding="8dp" />-->
+</LinearLayout>

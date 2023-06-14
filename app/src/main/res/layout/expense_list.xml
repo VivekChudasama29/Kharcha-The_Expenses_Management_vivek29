@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/add_expense_card"
+        android:layout_width="344dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="4dp">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:id="@+id/imageViewexpense"-->
+<!--                android:layout_width="60dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginTop="7dp"-->
+<!--                android:src="@drawable/akhil"-->
+<!--                app:civ_border_width="2dp"-->
+<!--                >-->
+
+<!--            </de.hdodenhof.circleimageview.CircleImageView>-->
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/imageViewFeedback"-->
+            <!--                android:layout_width="80dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:src="@drawable/baseline_person_24" />-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <TextView
+                    android:id="@+id/expenseName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="12dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="Expense Details"
+                    android:textColor="#5A63FD" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+

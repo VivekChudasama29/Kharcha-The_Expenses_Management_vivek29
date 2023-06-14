@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Split_Equally">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back_to_selection"
+                android:layout_width="25dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="155dp"
+                app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="10dp"
+                android:text="Split Equally"
+                android:textColor="#FFF"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <TextView
+        android:id="@+id/newtxtgroupid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:text="123"
+        android:textColor="@color/purple_700"
+         />
+    <TextView
+        android:id="@+id/newtxtexpenseid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:text="123"
+        android:textColor="@color/purple_700"
+        />
+    <TextView
+    android:id="@+id/newtxtmemnm"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:textSize="15dp"
+    android:textColor="@color/light_yellow"
+    android:text="123"
+    />
+    <TextView
+        android:id="@+id/new_txt_member_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="15dp"
+        android:textColor="@color/purple_500"
+        android:text="123"
+        />
+    <TextView
+        android:id="@+id/newtxtmemamt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:text="123"
+        android:textColor="@color/light_yellow"
+        />
+    <TextView
+        android:id="@+id/newtxttotal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:text="123"
+        android:textColor="@color/light_yellow"
+        />
+    <TextView
+        android:id="@+id/newtxtwhoid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:text="123"
+        android:textColor="@color/light_yellow"
+        />
+
+    <TextView
+        android:id="@+id/passgroupid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:text="123"
+        android:textColor="@color/light_yellow"
+        />
+
+    <TextView
+        android:id="@+id/passwhopaid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:text="123"
+        android:textColor="@color/light_yellow"
+        />
+    <TextView
+        android:id="@+id/passexpenseid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:text="123"
+        android:textColor="@color/light_yellow"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/add_expense_card3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="60dp"
+        app:cardBackgroundColor="#FFFF"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="40dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/divide_exp_amt_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                tools:listitem="@layout/devide_recycle" />
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save_expense_equally"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#5A63FD"
+        android:padding="15dp"
+        android:text="Save"
+        android:background="@drawable/edit_text"
+        android:textColor="#fff" />
+
+</LinearLayout>

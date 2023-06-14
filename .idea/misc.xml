@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/drawable/border_de.xml" value="0.119" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/drawable/edittext.xml" value="0.1" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_about_kharcha.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_add_expense.xml" value="0.17777777777777778" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_add_expense_amt.xml" value="0.17777777777777778" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_add_group.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_add_member.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_auto_imageslider.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_checkboxtesting.xml" value="0.17777777777777778" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_expense_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_feedback.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_final_settlement.xml" value="0.1" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_final_settlement2.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_forgot_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_group_settlement.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_just_try.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_logins.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_member_wise_expenses.xml" value="0.17777777777777778" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_newpage.xml" value="0.17777777777777778" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_notification.xml" value="0.1" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_out_put.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_rating.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_rating_page.xml" value="0.17777777777777778" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_rating_page2.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_registration.xml" value="0.1" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_settings.xml" value="0.1" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_settlement_member.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_settlement_member2.xml" value="0.17777777777777778" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/activity_split_equally.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/bottomsheet_profile.xml" value="0.1" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/bottomsheetlayout.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/devide_recycle.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/expense_member_recycle.xml" value="0.17777777777777778" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/fragment_recent__activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/group_list.xml" value="0.1" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/member_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/rateusdialogue.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/recycle_member_settle.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/slide_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/15-04-2023/9_4_23/app/src/main/res/layout/slider_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_about_kharcha.xml" value="0.25" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_add_expense_amt.xml" value="0.12158054711246201" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_add_group.xml" value="0.12158054711246201" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_add_member.xml" value="0.12158054711246201" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_final_settlement.xml" value="0.22826086956521738" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_final_settlement2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_forgot_password.xml" value="0.12158054711246201" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_group_settlement.xml" value="0.22826086956521738" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_member_wise_expenses.xml" value="0.22826086956521738" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_profile.xml" value="0.22826086956521738" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_registration.xml" value="0.22826086956521738" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_settlement_member.xml" value="0.10989583333333333" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_settlement_member2.xml" value="0.10989583333333333" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/bottomsheetlayout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/group_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/group_list2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/group_list3.xml" value="0.22826086956521738" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/layout/recycle_member_settle.xml" value="0.10989583333333333" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Complete/15-04-2023/9_4_23/app/src/main/res/menu/menu_bar.xml" value="0.25" />
+        <entry key="..\:/FINAL2/9_4_23/app/src/main/res/drawable/edittext.xml" value="0.119" />
+        <entry key="..\:/FINAL2/9_4_23/app/src/main/res/layout/activity_add_group.xml" value="0.17777777777777778" />
+        <entry key="..\:/FINAL2/9_4_23/app/src/main/res/layout/activity_add_member.xml" value="0.17777777777777778" />
+        <entry key="..\:/FINAL2/9_4_23/app/src/main/res/layout/activity_auto_imageslider.xml" value="0.17777777777777778" />
+        <entry key="..\:/FINAL2/9_4_23/app/src/main/res/layout/activity_expense_details.xml" value="0.17777777777777778" />
+        <entry key="..\:/FINAL2/9_4_23/app/src/main/res/layout/activity_final_settlement.xml" value="0.20416666666666666" />
+        <entry key="..\:/FINAL2/9_4_23/app/src/main/res/layout/activity_splash_screen.xml" value="0.17777777777777778" />
+        <entry key="..\:/FINAL2/9_4_23/app/src/main/res/layout/bottomsheet_profile.xml" value="0.1" />
+        <entry key="..\:/FINAL2/9_4_23/app/src/main/res/layout/expense_member_recycle.xml" value="0.20416666666666666" />
+        <entry key="..\:/FINAL2/9_4_23/app/src/main/res/layout/fragment_community.xml" value="0.20416666666666666" />
+        <entry key="..\:/FINAL2/9_4_23/app/src/main/res/layout/fragment_home.xml" value="0.17777777777777778" />
+        <entry key="..\:/FINAL2/9_4_23/app/src/main/res/layout/group_list.xml" value="0.17777777777777778" />
+        <entry key="..\:/FINAL2/9_4_23/app/src/main/res/layout/slide_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/9_4_23/app/src/main/res/drawable/background.xml" value="0.119" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/9_4_23/app/src/main/res/layout/activity_group_settlement.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/9_4_23/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/9_4_23/app/src/main/res/layout/background.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/9_4_23/app/src/main/res/layout/custom_dialog_layout.xml" value="0.17777777777777778" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/drawable/background.xml" value="0.126" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/drawable/background_button.xml" value="0.126" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/activity_add_group.xml" value="0.19074074074074074" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/activity_expense_details.xml" value="0.19074074074074074" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/activity_expenses_wise_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/activity_final_settlement.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/activity_final_settlement2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/activity_group_settlement.xml" value="0.19074074074074074" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/activity_member_wise_expenses.xml" value="0.19074074074074074" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/activity_pdf_generate.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/activity_settings.xml" value="0.19074074074074074" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/activity_settlement_member.xml" value="0.19074074074074074" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/activity_settlement_member2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/activity_split_equally.xml" value="0.19074074074074074" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/custom_dialog_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/devide_recycle.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/expense_member_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/fragment_community.xml" value="0.19074074074074074" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/fragment_home.xml" value="0.19074074074074074" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/fragment_person.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/fragment_recent__activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/fragment_setting.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final_For_Internal/15-04-2023/new/app/src/main/res/layout/group_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Kharcha/15-04-2023/new/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="..\:/Kharcha/15-04-2023/new/app/src/main/res/layout/activity_settlement_member.xml" value="0.10989583333333333" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_about_kharcha.xml" value="0.10364583333333334" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_add_expense_amt.xml" value="0.20416666666666666" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_add_group.xml" value="0.19074074074074074" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_add_member.xml" value="0.19074074074074074" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_expense_details.xml" value="0.19074074074074074" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_expenses_wise_info.xml" value="0.19074074074074074" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_feedback.xml" value="0.19074074074074074" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_final_settlement.xml" value="0.25" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_final_settlement2.xml" value="0.25" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_forgot_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_group_settlement.xml" value="0.25" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_logins.xml" value="0.1480978260869565" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_member_wise_expenses.xml" value="0.19074074074074074" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_profile.xml" value="0.10364583333333334" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_registration.xml" value="0.264" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_send_otp.xml" value="0.25" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_settlement_member.xml" value="0.20416666666666666" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_settlement_member2.xml" value="0.20416666666666666" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_split_equally.xml" value="0.20416666666666666" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/activity_verify_otp.xml" value="0.25" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/custom_dialog_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/devide_recycle.xml" value="0.20416666666666666" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/group_list.xml" value="0.19074074074074074" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/header.xml" value="0.19074074074074074" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/list_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/layout/slider_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/vivek/15-04-2023/new/app/src/main/res/menu/bottom_nav_menu.xml" value="0.19074074074074074" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
